@@ -21,7 +21,7 @@ System.out.println("&dPink color!")
 You can also create commands and add them to the console using the following code:
 
 ```
-new Command("test", this, "This is a test command!") {
+new Command("test", console, "This is a test command!") {
     @Override
     public void execute(String[] args) {
         System.out.println("&aTest command works!");
